@@ -52,6 +52,10 @@ group :development, :test do
 
   # Quiet those assets down!  Reduces noise in the logs
   gem 'quiet_assets'
+
+  # adding pry magic
+  gem 'pry'
+  gem 'pry-rails'
 end
 
 group :production do
