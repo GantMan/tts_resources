@@ -56,6 +56,12 @@ group :development, :test do
   # adding pry magic
   gem 'pry'
   gem 'pry-rails'
+
+  # add faking stuffs
+  gem 'faker'
+  gem 'populator'
+
+  gem 'annotate'
 end
 
 group :production do
